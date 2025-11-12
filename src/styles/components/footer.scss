@@ -1,0 +1,38 @@
+.footer {
+    .bold {
+        color: #fff;
+    }
+
+    .wrapper {
+        display: flex;
+        gap: 15px;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        color: rgba($color: #fff, $alpha: 0.55);
+    }
+
+    .socials {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: rgba($color: #fff, $alpha: 0.55);
+        gap: 56px;
+        padding-top: 30px;
+    }
+
+    h2 {
+        margin: 0;
+        font-family: var(--font-primary);
+        font-weight: 200;
+        font-size: typo(56px);
+        line-height: 150%;
+        letter-spacing: -2%;
+        text-align: center;
+    }
+
+    p {
+        margin: 0;
+        text-align: center;
+    }
+}

@@ -21,11 +21,16 @@ h1 {
 
 h2 {
     font-size: var(--font-size-h2);
-    font-family: var(--font-secondary);
+    font-family: var(--font-primary);
+    font-weight: 200;
 }
 
 h3 {
     font-size: var(--font-size-h3);
+    font-family: var(--font-primary);
+    font-weight: 600;
+    line-height: 150%;
+    letter-spacing: 4%;
 }
 
 h4 {
@@ -38,4 +43,27 @@ h5 {
 
 h6 {
     font-size: var(--font-size-h6);
+}
+
+.bold {
+    font-weight: 600;
+}
+
+p {
+    font-family: var(--font-primary);
+    font-weight: 200;
+    font-size: var(--font-size-p);
+    line-height: 150%;
+}
+
+p.tag {
+    font-size: typo(18px);
+}
+
+a {
+    font-size: typo(16px);
+    font-weight: bold;
+    font-family: var(--font-primary);
+    line-height: 150%;
+    letter-spacing: 4%;
 }

@@ -1,0 +1,28 @@
+.section__reactif {
+    background-color: var(--color-primary);
+    color: var(--color-black);
+
+    h2 {
+        padding-bottom: 100px;
+    }
+
+    a {
+        background-color: var(--color-white);
+    }
+
+    .card {
+        margin-bottom: 50px;
+    }
+}
+
+.swiper-pagination {
+    --swiper-pagination-bullet-width: 20px;
+    --swiper-pagination-bullet-height: 20px;
+    --swiper-pagination-color: var(--color-white);
+    --swiper-pagination-bullet-inactive-color: var(--color-black);
+    --swiper-pagination-bullet-border-radius: 0;
+    --swiper-pagination-bullet-horizontal-gap: 15px;
+    .swiper-pagination-bullet {
+        rotate: 45deg;
+    }
+}
